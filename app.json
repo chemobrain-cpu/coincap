@@ -7,9 +7,8 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#1652f0"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,13 +20,32 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-xxxxxx"
+      },
+      "package": "com.chemobrain857380.myapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#ffffff"
+          
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "20a49b61-dcc3-4c5a-a638-41dcc0f472de"
+      }
     }
   }
 }
+

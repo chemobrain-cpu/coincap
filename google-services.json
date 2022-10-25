@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "197500419212",
+    "project_id": "my-app-317704",
+    "storage_bucket": "my-app-317704.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197500419212:android:de3e7f5295f6ed96640fa9",
+        "android_client_info": {
+          "package_name": "com.chemobrain.coinbaseclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197500419212-3tc5a8kdd0cl949ovkktml407ccc76o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYHXamMxJZQh9kiBW9TRSU84mZdB_pd8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197500419212-3tc5a8kdd0cl949ovkktml407ccc76o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
